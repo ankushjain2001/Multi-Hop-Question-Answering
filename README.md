@@ -2,7 +2,18 @@
 
 ## Instructions
 - To view answer prediction results on test data with trained weights or baseline model, the Colab notebooks can be used from the resources below.
-- To train a fresh model, use utils/model_trainer.py with the following command:
+- To train a fresh model with the following configurations, use utils/model_trainer.py
+  - **Configurations**\
+      Tokenizer Max Length = 1024\
+      Epochs = 2\
+      Learning Rate = 0.00005\
+      Architecture Name = allenai/longformer-base-4096\
+      Save Name for Weights = neew_weights\
+  - **Command**\
+  ```python model_trainer.py 1024 8 2 0.00005 allenai/longformer-base-4096/ new_weights```\
+
+
+  
 - The data pre-processor script and the data splitter script can also be found in utils/model_trainer
 
 ## Resources
