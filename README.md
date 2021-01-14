@@ -1,4 +1,5 @@
 # Multi-Hop Question Answering
+Implemented a question and answering model for multi-hop questions that requires logical inference or aggregation of information from various parts of the information text (like referring multiple wikis to answer a question). Please check out the [report](Report.pdf) for results.
 
 ## Instructions
 - To view answer prediction results on test data with trained weights or baseline model, use the Colab notebooks from the resources below.
